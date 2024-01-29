@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.container  #form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 275px;
+}
+
+.container #form #form-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container #form #form-div #email {
+  width: 300px;
+  height: 45px;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  background-color: #c4c0c0;
+  color: black;
+}
+
+.container #form #form-div #password {
+  width: 300px;
+  height: 45px;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  background-color: #c4c0c0;
+  color: black;
+}
+
+.container #form #form-div #image {
+  width: 300px;
+  height: 45px;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  background-color: #c4c0c0;
+  color: black;
+}
+
+.container #form #form-div #loginButton {
+  width: 200px;
+  height: 43px;
+  background-color: #c4c0c0;
+  color: black;
+  font-size: 18px;
+  border-radius: 15px;
+  position: relative;
+  left: 50px;
+  border: 2px solid #fff;
+}
+
+.container #form #form-div #loginButton:hover {
+  background-color: rgb(54, 54, 224);
+  border: none;
+}
+
+.container #form #form-div #registration {
+  width: 250px;
+  height: 45px;
+  background-color: #c4c0c0;
+  color: black;
+  font-size: 18px;
+  border-radius: 15px;
+  position: relative;
+  left: 25px;
+  border: 2px solid #fff;
+}
+
+.container #form #form-div #registration:hover {
+  background-color: rgb(54, 54, 224);
+  border: none;
+}
+
